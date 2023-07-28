@@ -7,7 +7,7 @@
     --earthCustom: #BC986A;
     --tanCustom: #FBEEC1;
     background-color: var(--blueCustom);
-    background-image: url("./BYTE.png") no-repeat;
+    background-image: url("./bytebanner.png") no-repeat;
     background-position: center;
     background-size:cover;
     overflow: hidden;
@@ -17,10 +17,20 @@
     text-align: center;
     color: var(--tanCustom);
 
-    img {
-        width: 80px;
-        height: 90px;
+    .main {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+        
+        img {
+            width: 80px;
+            height: 90px;
+        }
     }
+
+    
 
     #github-logo {
         border: none;
