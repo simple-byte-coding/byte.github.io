@@ -1,0 +1,22 @@
+:root {
+    --oliveCustom: #8D8741;
+    --blueCustom: #659DBD;
+    --tanPeachCustom: #DAAD86;
+    --earthCustom: #BC986A;
+    --tanCustom: #FBEEC1;
+    background-color: var(--blueCustom);
+    background-image: url("./BYTE.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    color: var(--tanCustom);
+
+    img {
+        width: 80px;
+        height: 90px;
+    }
+}
